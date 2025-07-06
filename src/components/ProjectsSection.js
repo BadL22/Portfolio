@@ -35,7 +35,7 @@ const ProjectsSection = () => {
       githubUrl: "https://github.com/BadL22/Crypto-Tracker"
     },
     {
-      title: "Caribou Cabin Rentals",
+      title: "Caribou Log Cabin Resort",
       description: "A complete business website for a cabin rental company featuring booking functionality, seasonal availability logic, and responsive design optimized for tourism industry needs.",
       technologies: ["React", "JavaScript", "Responsive Design", "Business Logic"],
       image: CaribouImg,

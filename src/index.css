@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+.animate-pulse-delay-1000 {
+  animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite 1s;
+}
+
+.animate-pulse-delay-2000 {
+  animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite 2s;
+}
